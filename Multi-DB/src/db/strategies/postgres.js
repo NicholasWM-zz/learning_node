@@ -8,7 +8,6 @@ class Postgres extends ICrud {
 
     create(item){
         console.log("O item foi salvo em Postgres");
-        
     }
 }
 
