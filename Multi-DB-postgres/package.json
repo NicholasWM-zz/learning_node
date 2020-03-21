@@ -1,0 +1,21 @@
+{
+  "name": "Multi-DB-postgres",
+  "version": "1.0.0",
+  "description": "docker run /\r     --name postgres /\r     -e POSTGRES_USER=nicholaswm /\r     -e POSTGRES_PASSWORD=senhasecreta /\r     -e POSTGRES_DB=heroes /\r     -p 5432:5432 /\r     -d /\r     postgres",
+  "main": "index.js",
+  "dependencies": {
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
+  "scripts": {
+    "test": "mocha src/tests/*.js",
+    "test:watch": "mocha src/tests/*.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
